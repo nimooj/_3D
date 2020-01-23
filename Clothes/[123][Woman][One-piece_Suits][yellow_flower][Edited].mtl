@@ -1,0 +1,7 @@
+newmtl yellow_flower:material_0
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd [123][Woman][One-piece_Suits][yellow_flower][Edited].bmp
+Ni 1.00

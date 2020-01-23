@@ -1,0 +1,843 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\Gaia.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""l.KOR\\afxres.rc""          // 표준 구성 요소입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Gaia.ico"
+IDR_GaiaTYPE            ICON                    "res\\GaiaDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_TOOLBAR             BITMAP                  "res\\Toolbar.bmp"
+IDB_TOOLBAR_EDIT        BITMAP                  "res\\toolbar_edit.bmp"
+IDB_GO_TO_START_OFF     BITMAP                  "res\\go_to_start_off.bmp"
+IDB_TOOLBAR_RENDER_TYPE BITMAP                  "res\\toolbar_render_type.bmp"
+IDB_TOOLBAR_CREATE_POLYGON BITMAP                  "res\\toolbar_create_polygon.bmp"
+IDB_TOOLBAR_CREATE_NURBS BITMAP                  "res\\toolbar_create_nurbs.bmp"
+IDB_GO_TO_START_ON      BITMAP                  "res\\go_to_start_on.bmp"
+IDB_STEP_BACK_ONE_KEY_OFF BITMAP                  "res\\step_back_one_key_off.bmp"
+IDB_STEP_BACK_ONE_KEY_ON BITMAP                  "res\\step_back_one_key_on.bmp"
+IDB_STEP_BACK_ONE_FRAME_OFF BITMAP                  "res\\step_back_one_frame_off.bmp"
+IDB_STEP_BACK_ONE_FRAME_ON BITMAP                  "res\\step_back_one_frame_on.bmp"
+IDB_PLAY_BACKWARD_OFF   BITMAP                  "res\\play_backward_off.bmp"
+IDB_PLAY_BACKWARD_ON    BITMAP                  "res\\play_backward_on.bmp"
+IDB_PLAY_FORWARD_OFF    BITMAP                  "res\\play_forward_off.bmp"
+IDB_PLAY_FORWARD_ON     BITMAP                  "res\\play_forward_on.bmp"
+IDB_STEP_FORWARD_ONE_KEY_OFF BITMAP                  "res\\step_forward_one_key_off.bmp"
+IDB_STEP_FORWARD_ONE_KEY_ON BITMAP                  "res\\step_forward_one_key_on.bmp"
+IDB_STEP_FORWARD_ONE_FRAME_OFF BITMAP                  "res\\step_forward_one_frame_off.bmp"
+IDB_STEP_FORWARD_ONE_FRAME_ON BITMAP                  "res\\step_forward_one_frame_on.bmp"
+IDB_GO_TO_END_OFF       BITMAP                  "res\\go_to_end_off.bmp"
+IDB_GO_TO_END_ON        BITMAP                  "res\\go_to_end_on.bmp"
+IDB_PLAY_STOP_OFF       BITMAP                  "res\\play_stop_off.bmp"
+IDB_PLAY_STOP_ON        BITMAP                  "res\\play_stop_on.bmp"
+IDR_TOOLBAR_CREATE_NURBS BITMAP                  "res\\toolbar_.bmp"
+IDR_TOOLBAR_CREATE_POLYGON BITMAP                  "res\\bmp00001.bmp"
+IDR_TOOLBAR_EDIT        BITMAP                  "res\\bmp00002.bmp"
+IDR_TOOLBAR_RENDER_TYPE BITMAP                  "res\\bmp00003.bmp"
+IDB_TOOLBAR_EDIT_HOT    BITMAP                  "res\\bmp00004.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  24, 24
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TOOLBAR_EDIT TOOLBAR  34, 34
+BEGIN
+    BUTTON      ID_SELECT_TOOL_RECT
+    BUTTON      ID_SELECT_TOOL_LASSO
+    BUTTON      ID_SELECT_TOOL_POLY
+    BUTTON      ID_SELECT_TOOL_PAINT
+    SEPARATOR
+    BUTTON      ID_EDIT_TRA
+    BUTTON      ID_EDIT_ROT
+    BUTTON      ID_EDIT_SCL
+    SEPARATOR
+    BUTTON      ID_REPEAT_COMMAND
+END
+
+IDR_TOOLBAR_RENDER_TYPE TOOLBAR  34, 34
+BEGIN
+    BUTTON      ID_RENDER_TYPE_POLYGON
+    BUTTON      ID_RENDER_TYPE_WIRE
+    BUTTON      ID_RENDER_TYPE_POINT
+END
+
+IDR_TOOLBAR_CREATE_NURBS TOOLBAR  24, 24
+BEGIN
+    BUTTON      ID_CREATE_NURBS_CRV
+    BUTTON      ID_CREATE_NURBS_SRF
+END
+
+IDR_TOOLBAR_CREATE_POLYGON TOOLBAR  24, 24
+BEGIN
+    BUTTON      ID_CREATE_POLYGON_PLANE
+    BUTTON      ID_CREATE_CUT_LINE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New Scene(&N)\tCtrl+N",       ID_FILE_NEW
+        MENUITEM "Open Scene(&O)...\tCtrl+O",   ID_FILE_OPEN
+        MENUITEM "Save Scene(&S)\tCtrl+S",      ID_FILE_SAVE
+        MENUITEM "Save Scene As(&A)...",        ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Import...",                   ID_FILE_IMPORT
+        MENUITEM "Export All...",               ID_FILE_EXPORT
+        MENUITEM "Export Selection...",         ID_EXPORT_SELECTION
+        MENUITEM SEPARATOR
+        MENUITEM "Import Camera...",            ID_IMPORT_CAMERA
+        MENUITEM "Export Camera...",            ID_EXPORT_CAMERA
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Undo(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM "Redo(&R)\tShift+Z",           ID_EDIT_REDO33011
+        MENUITEM "Repeat Command(&R)\tCtrl+R",  33072
+        MENUITEM SEPARATOR
+        MENUITEM "Cut(&T)\tCtrl+X",             ID_EDIT_CUT
+        MENUITEM "Copy(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "Paste(&P)\tCtrl+V",           ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        POPUP "Select Tools"
+        BEGIN
+            MENUITEM "Rect Tool",                   ID_SELECT_TOOL_RECT
+            MENUITEM "Lasso Tool",                  ID_SELECT_TOOL_LASSO
+            MENUITEM "Poly Tool",                   ID_SELECT_TOOL_POLY
+            MENUITEM "Paint Tool",                  ID_SELECT_TOOL_PAINT
+        END
+        MENUITEM "Select All",                  ID_EDIT_SELECT_ALL
+        MENUITEM "Select Options...",           ID_EDIT_SELECT_OPTION
+        MENUITEM SEPARATOR
+    END
+    POPUP "Modify"
+    BEGIN
+        POPUP "Gizomo Setting"
+        BEGIN
+            MENUITEM "Update {MC} from {WC}",       ID_UPDATE_MC_FROM_WC
+            MENUITEM "Update {MC} from AABB",       ID_UPDATE_MC_FROM_AABB
+            MENUITEM "Update {MC} from OBB",        ID_UPDATE_MC_FROM_OBB
+        END
+        POPUP "Transformation Tools"
+        BEGIN
+            MENUITEM "Move Tool",                   ID_EDIT_TRA
+            MENUITEM "Rotate Tool",                 ID_EDIT_ROT
+            MENUITEM "Scale Tool",                  ID_EDIT_SCL
+        END
+    END
+    POPUP "Create"
+    BEGIN
+        POPUP "NURBS Primitives"
+        BEGIN
+            MENUITEM "Sphere",                      ID_CREATE_NURBS_SPHERE
+            MENUITEM "Cube",                        ID_NURBSPRIMITIVES_CUBE
+            MENUITEM "Cylinder",                    ID_NURBSPRIMITIVES_CYLINDER
+            MENUITEM "Cone",                        ID_NURBSPRIMITIVES_CONE
+            MENUITEM "Plane",                       ID_CREATE_NURBS_SRF
+            MENUITEM "Torus",                       ID_NURBSPRIMITIVES_TORUS
+            MENUITEM "Circle",                      ID_CREATE_NURBS_CIRCLE
+            MENUITEM "Square",                      ID_NURBSPRIMITIVES_SQUARE
+            MENUITEM "Teapot",                      ID_CREATE_NURBS_TEAPOT
+        END
+        POPUP "Polygon Primitives"
+        BEGIN
+            MENUITEM "Sphere",                      ID_CREATE_POLYGON_SPHERE
+            MENUITEM "Cube",                        ID_POLYGONPRIMITIVES_CUBE
+            MENUITEM "Cylinder",                    ID_32806
+            MENUITEM "Cone",                        ID_32804
+            MENUITEM "Plane",                       ID_CREATE_POLYGON_PLANE
+            MENUITEM "Polygon",                     ID_CREATE_POLYGON
+            MENUITEM "Torus",                       ID_STANDARDPRIMITIVES_TORUS
+            MENUITEM "Prism",                       ID_32803
+            MENUITEM "Pyramid",                     ID_STANDARDPRIMITIVES_TUBE
+            MENUITEM "Pipe",                        ID_STANDARDPRIMITIVES_PYRAMID
+            MENUITEM "Teapot",                      ID_CREATE_POLYGON_TEAPOT
+            MENUITEM "Disk",                        33189
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "CV Curve Tool",               ID_CREATE_NURBS_CRV
+        MENUITEM "EV Curve Tool",               ID_CREATE_BLEND_CRV
+        MENUITEM SEPARATOR
+    END
+    POPUP "Display"
+    BEGIN
+        MENUITEM "Grid",                        ID_DISPLAY_GRID
+        MENUITEM "Check FPS",                   ID_CHECK_FPS
+        MENUITEM "Gradient Background",         ID_DISPLAY_BACKGROUND
+        POPUP "Heads Up Display"
+        BEGIN
+            MENUITEM "Frame Rate",                  ID_HEADSUPDISPLAY_FRAMERATE
+            MENUITEM "Origin Axis",                 ID_HEADSUPDISPLAY_ORIGINAXIS
+            MENUITEM "ViewCube",                    ID_HEADSUPDISPLAY_VIEWCUBE
+        END
+        POPUP "UI Elements"
+        BEGIN
+            MENUITEM "Workspace Bar(&W)",           ID_VIEW_WORKSPACE
+            MENUITEM "Edit Bar(&E)",                ID_VIEW_EDIT_TOOL
+            MENUITEM "RenderType Bar(&R)",          ID_VIEW_RENDER_TYPE_BAR
+            MENUITEM "NURBS Create Bar(&N)",        ID_VIEW_NURBS_CREATE_BA
+            MENUITEM "Polygon Create Bar(&P)",      ID_VIEW_POLYGON_CREATE_BAR
+            MENUITEM "Animate Bar(&A)",             ID_VIEW_ANIMATE_BAR
+            MENUITEM "Output Bar(&O)",              ID_VIEW_OUTPUT_BAR
+            MENUITEM "Tool Bar(&T)",                ID_VIEW_TOOLBAR
+            MENUITEM "Status Bar(&S)",              ID_VIEW_STATUS_BAR
+        END
+        MENUITEM SEPARATOR
+        POPUP "Polygon"
+        BEGIN
+            MENUITEM "Polygon",                     ID_RENDER_TYPE_POLYGON
+            MENUITEM "Wireframe",                   ID_RENDER_TYPE_WIRE
+            MENUITEM "Point",                       ID_RENDER_TYPE_POINT
+            MENUITEM "Normal",                      ID_RENDER_NORMAL
+            MENUITEM "Enable Texture",              ID_RENDER_TEXTURE
+            MENUITEM "Enable Transparancy",         ID_RENDER_TRANSPARENT
+            MENUITEM "Cull Back Face",              ID_RENDER_CULL_BACK_FACE
+        END
+        POPUP "NURBS"
+        BEGIN
+            MENUITEM "Control Points",              ID_RENDER_CTRL_PT
+        END
+    END
+    MENUITEM "||",                          ID_33160, INACTIVE
+    MENUITEM "Edit Curves",                 ID_EDITCURVES
+    MENUITEM "||",                          0, INACTIVE
+    POPUP "Surfaces"
+    BEGIN
+        MENUITEM "Sweep Surface",               ID_CREATE_SWEEP_SRF
+    END
+    MENUITEM "Edit NURBS",                  ID_EDITNURBS
+    MENUITEM "||",                          0, INACTIVE
+    POPUP "Mesh"
+    BEGIN
+        MENUITEM "Blending Mesh",               ID_CREATE_TRI_BLEND_SRF
+    END
+    POPUP "Edit Mesh"
+    BEGIN
+        POPUP "Clean"
+        BEGIN
+            MENUITEM "Find Non-Manifold Faces",     ID_FIND_NON_MANIFOLD_FACE
+            MENUITEM "Delete Degenerated Faces",    ID_DEL_DEGENERATED_FACE
+            MENUITEM "Delete Isolated Vertex",      ID_DEL_ISOLATED_VERT
+            MENUITEM "Fill Holes",                  ID_FILL_HOLE
+            MENUITEM "Sewing Boundary",             ID_SEW_BOUNDARY
+            MENUITEM "Merge Two Meshes",            ID_MERGE_TWO_MESHES
+        END
+        POPUP "Cutting"
+        BEGIN
+            MENUITEM "Create Cutting Line",         ID_CREATE_CUT_LINE
+            MENUITEM "Cut Mesh",                    ID_EDIT_CUT_MESH
+        END
+        POPUP "Normals"
+        BEGIN
+            MENUITEM "Reverse Normals",             ID_RESERVE_NORMAL
+        END
+        POPUP "Transform"
+        BEGIN
+            MENUITEM "Normalize Mesh",              ID_MESH_NORMALIZE
+            MENUITEM "Double Mesh",                 ID_MESH_DOUBLE_SIZE
+        END
+        MENUITEM "DeformBox",                   ID_DEFORM_BOX
+        MENUITEM SEPARATOR
+        MENUITEM "Add Triangle",                ID_ADD_TRIANGLE
+        MENUITEM "Update Mesh",                 ID_UPDATE_MESH
+        MENUITEM SEPARATOR
+        MENUITEM "Convert to NURBS Patch",      ID_CONVERT_TO_NURBS_PATCH
+        MENUITEM "Texture",                     ID_POLYGON_TEXTURE
+        MENUITEM SEPARATOR
+    END
+    MENUITEM "||",                          0, INACTIVE
+    POPUP "Animation"
+    BEGIN
+        MENUITEM "Create Male",                 ID_CREATE_CHARACTER_MALE
+        MENUITEM "Create Female",               ID_CREATE_CHARACTER_FEMALE
+        MENUITEM SEPARATOR
+        POPUP "Skinning"
+        BEGIN
+            MENUITEM "Normalize Skin Weight",       ID_NORMALIZE_SKIN_WEIGHTS
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Clothes Skinning(ETRI2015)",  ID_ETRI2015
+        MENUITEM "Create Ragdoll",              ID_CREATE_RAGDOLL
+    END
+    MENUITEM "||",                          0, INACTIVE
+    POPUP "Dental"
+    BEGIN
+        MENUITEM "Template Models",             ID_IMPORT_DENTAL_MODELS
+        MENUITEM "Create Moving Planes",        ID_CREATE_CUT_PLANE
+        MENUITEM "Bind Vert. to Moving Planes", ID_CREATE_SWEEP_PLANE
+    END
+    MENUITEM "||",                          ID_33163, INACTIVE
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Gaia 정보(&A)...",              ID_APP_ABOUT
+    END
+    POPUP "테스트"
+    BEGIN
+        MENUITEM "장면0(삼각형베지에블렌딩)",              ID_TEST_SCENE0
+        MENUITEM "장면1(B-spline 곡선)",            ID_TEST_SCENE1
+        MENUITEM "장면2(B-spline 곡면)",            ID_TEST_SCENE2
+        MENUITEM "장면3(브러쉬 UI)",                 ID_TEST_SCENE3
+        MENUITEM "장면4(경계감지)",                   ID_TEST_SCENE4
+        MENUITEM "장면5(에트리위탁2015)",              ID_TEST_SCENE5
+        MENUITEM "장면6",                         ID_TEST_SCENE6
+        MENUITEM "장면7",                         ID_TEST_SCENE7
+        MENUITEM "장면8(Biarc 테스트)",              ID_TEST_SCENE8
+        MENUITEM "장면9(ASF 로더)",                 ID_TEST_SCENE9
+        MENUITEM "장면10(가전면)",                   ID_TEST_SCENE10
+        MENUITEM "장면11(메쉬로더)",                  ID_TEST_SCENE11
+        MENUITEM "장면12(원뿔변환)",                  ID_TEST_SCENE12
+        MENUITEM "장면13(삼각형베지에곡면)",              ID_TEST_SCENE13
+        MENUITEM "장면14(가전면직접제어)",               ID_TEST_SCENE14
+        MENUITEM "장면15(스윕블렌딩)",                 ID_TEST_SCENE15
+        MENUITEM "장면16(비었음)",                   ID_TEST_SCENE16
+        MENUITEM "장면17(깊이맵근사)",                 ID_TEST_SCENE17
+        MENUITEM "장면18(임의차수넙스근사)",              ID_TEST_SCENE18
+        MENUITEM "장면19(얼굴변위맵생성)",               ID_TEST_SCENE19
+        MENUITEM "장면20(얼굴변위맵적용)",               ID_TEST_SCENE20
+        MENUITEM "장면21(얼굴변위맵전위)",               ID_TEST_SCENE21
+        MENUITEM "장면22(얼굴변위맵매칭)",               ID_TEST_SCENE22
+    END
+END
+
+IDR_MESH_TREE_POPUP MENU 
+BEGIN
+    POPUP "POPUP"
+    BEGIN
+        MENUITEM "Show",                        ID_SHOW_MESH
+        MENUITEM "Hide",                        ID_HIDE_MESH
+        MENUITEM "Delete",                      ID_DELETE_MESH
+    END
+END
+
+IDR_SCENE_POPUP MENU 
+BEGIN
+    POPUP "POPUP"
+    BEGIN
+        MENUITEM "Select Object",               ID_SELECT_MESH
+        MENUITEM "Select Vertex",               ID_SELECT_VERTEX
+        MENUITEM "Select Face",                 ID_SELECT_FACE
+        MENUITEM "Select FaceGroup",            ID_SELECT_FACE_GROUP
+        MENUITEM "Select Bone",                 ID_SELECT_BONE_MESH
+        MENUITEM "Select CtrlPt",               ID_SELECT_CTRL_PT
+        MENUITEM "Select EditPt",               ID_SELECT_EDIT_PT
+        POPUP "SelectMode"
+        BEGIN
+            MENUITEM "Front Only",                  ID_SELECT_MODE_FRONT_ONLY
+            MENUITEM "Front and Back",              ID_SELECT_MODE_FRONT_AND_BACK
+        END
+        MENUITEM SEPARATOR
+        POPUP "Display"
+        BEGIN
+            MENUITEM "Polygon",                     ID_RENDER_TYPE_POLYGON
+            MENUITEM "Wireframe",                   ID_RENDER_TYPE_WIRE
+            MENUITEM "Point Clouds",                ID_RENDER_TYPE_POINT
+            MENUITEM "Boundary",                    ID_RENDER_TYPE_BOUNDARY
+            MENUITEM "Normals",                     ID_RENDER_NORMAL
+            MENUITEM "Control Points",              ID_RENDER_CTRL_PT
+            MENUITEM SEPARATOR
+            MENUITEM "Enable Texture",              ID_RENDER_TEXTURE
+            MENUITEM "Cull Back Face",              ID_RENDER_CULL_BACK_FACE
+        END
+        POPUP "Shading"
+        BEGIN
+            MENUITEM "Flat",                        ID_SHADE_FLAT
+            MENUITEM "Smooth",                      ID_SHADE_SMOOTH
+        END
+        POPUP "Vertex Color"
+        BEGIN
+            MENUITEM "Illumination",                ID_VERTEX_COLOR_ILLUMINATION
+            MENUITEM "Normal",                      ID_VERTEX_COLOR_NORMAL
+            MENUITEM "Bone Weights",                ID_VERTEX_COLOR_BONE_WEIGHTS
+        END
+        POPUP "Projection"
+        BEGIN
+            MENUITEM "Perspective",                 ID_CAMERA_PERS
+            MENUITEM "Orthogonal",                  ID_CAMERA_ORTHO
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Gaia 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Gaia, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "확인",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_WORKSPACE_DLG DIALOGEX 0, 0, 200, 265
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_WORKSPACE_TAB,"SysTabControl32",TCS_HOTTRACK,7,7,186,31
+END
+
+IDD_SCENE_TREE_DLG DIALOGEX 0, 0, 210, 305
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MESH_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,196,291
+END
+
+IDD_ANIM_DLG DIALOGEX 0, 0, 675, 26
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_GO_TO_START,"Button",BS_OWNERDRAW | WS_TABSTOP,4,5,15,16
+    CONTROL         "",IDC_STEP_BACK_ONE_FRAME,"Button",BS_OWNERDRAW | WS_TABSTOP,19,5,15,16
+    CONTROL         "",IDC_STEP_BACK_ONE_KEY,"Button",BS_OWNERDRAW | WS_TABSTOP,34,5,15,16
+    CONTROL         "",IDC_PLAY_BACKWARD,"Button",BS_OWNERDRAW | WS_TABSTOP,49,5,15,16
+    CONTROL         "",IDC_PLAY_FORWARD,"Button",BS_OWNERDRAW | WS_TABSTOP,64,5,15,16
+    CONTROL         "",IDC_STEP_FORWARD_ONE_KEY,"Button",BS_OWNERDRAW | WS_TABSTOP,79,5,15,16
+    CONTROL         "",IDC_STEP_FORWARD_ONE_FRAME,"Button",BS_OWNERDRAW | WS_TABSTOP,94,5,15,16
+    CONTROL         "",IDC_GO_TO_END,"Button",BS_OWNERDRAW | WS_TABSTOP,109,5,15,16
+    EDITTEXT        IDC_NUM_FRAME,178,5,33,16,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CURR_FRAME_IDX,133,5,33,16,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_FRAME_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_TOOLTIPS | WS_TABSTOP,218,2,172,16
+    CTEXT           "/",IDC_STATIC,169,8,8,8,SS_CENTERIMAGE
+END
+
+IDD_OUTPUT_DLG DIALOGEX 0, 0, 669, 50
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MESSAGE_BOX,7,7,655,35,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL
+END
+
+IDD_CLOTHES_SKIN_DLG DIALOGEX 0, 0, 204, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "옷 스키닝 대화상자"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "바인딩 참조 스윕",IDC_STATIC,7,7,190,38
+    CONTROL         "왼쪽 어깨",IDC_SHOW_BIND_REF_PLN_LS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,22,25,50,10
+    CONTROL         "오른쪽 어깨",IDC_SHOW_BIND_REF_PLN_RS,"Button",BS_AUTORADIOBUTTON,78,25,58,10
+    CONTROL         "가리기",IDC_HIDE_BIND_REF_PLN,"Button",BS_AUTORADIOBUTTON,142,25,40,10
+    GROUPBOX        "바인딩 옵션",IDC_STATIC,7,54,190,45
+    PUSHBUTTON      "최단거리 바인딩",IDC_BIND_BY_MIN_DIST,15,70,78,14
+    PUSHBUTTON      "스윕평면 바인딩",IDC_BIND_BY_SWP_PLN,109,70,78,14
+    DEFPUSHBUTTON   "확인",IDOK,87,116,50,14
+    PUSHBUTTON      "취소",IDCANCEL,147,116,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <동국대학교 그래픽스응용연구실>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Gaia.exe"
+            VALUE "LegalCopyright", "TODO: (c) <동국대학교 그래픽스응용연구실>.  All rights reserved."
+            VALUE "OriginalFilename", "Gaia.exe"
+            VALUE "ProductName", "TODO: <Gaia>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_WORKSPACE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_SCENE_TREE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+
+    IDD_ANIM_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 670
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_OUTPUT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 662
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+        HORZGUIDE, 1
+    END
+
+    IDD_CLOTHES_SKIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_LASSO_CURSOR        CURSOR                  "res\\lasso.cur"
+IDC_ROTATE_CURSOR       CURSOR                  "res\\cursor1.cur"
+IDC_MOVE_CURSOR         CURSOR                  "res\\cur00001.cur"
+IDC_EDIT_CURSOR         CURSOR                  "res\\cur00002.cur"
+IDC_POLY_CURSOR         CURSOR                  "res\\poly_cur.cur"
+IDC_PAINT_CURSOR        CURSOR                  "res\\paint.cur"
+IDC_RAZOR_CURSOR        CURSOR                  "res\\cur00003.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE를 초기화할 수 없습니다. OLE 라이브러리 버전이 올바른지 확인하십시오."
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Gaia\n\nGaia\nGaia Files (*.gff)\n.gff\nGaia.Document\nGaia.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Gaia"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 만듭니다.\n새로 만들기"
+    ID_FILE_OPEN            "기존 문서를 엽니다.\n열기"
+    ID_FILE_CLOSE           "활성 문서를 닫습니다.\n닫기"
+    ID_FILE_SAVE            "활성 문서를 저장합니다.\n저장"
+    ID_FILE_SAVE_AS         "활성 문서를 새 이름으로 저장합니다.\n다른 이름으로 저장"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보, 버전 번호, 저작권을 표시합니다.\n정보"
+    ID_APP_EXIT             "문서를 저장할지를 묻고 응용 프로그램을 끝냅니다.\n끝내기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE2       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE3       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE4       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE5       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE6       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE7       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE8       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE9       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE10      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE11      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE12      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE13      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE14      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE15      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE16      "현재 문서를 엽니다."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다.\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다.\n이전 창"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "활성 창을 여러 개의 창으로 분할합니다.\n분할"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 영역을 지웁니다.\n지우기"
+    ID_EDIT_CLEAR_ALL       "모두 지웁니다.\n모두 지우기"
+    ID_EDIT_COPY            "선택 영역을 복사하여 클립보드에 넣습니다.\n복사"
+    ID_EDIT_CUT             "선택 영역을 잘라내어 클립보드에 넣습니다.\n잘라내기"
+    ID_EDIT_FIND            "지정한 텍스트를 찾습니다.\n찾기"
+    ID_EDIT_PASTE           "클립보드 내용을 삽입합니다.\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막 작업을 반복합니다.\n반복"
+    ID_EDIT_REPLACE         "특정 텍스트를 다른 텍스트로 바꿉니다.\n바꾸기"
+    ID_EDIT_SELECT_ALL      "전체 문서를 선택합니다.\n모두 선택"
+    ID_EDIT_UNDO            "마지막 작업 실행을 취소합니다.\n실행 취소"
+    ID_EDIT_REDO            "이전에 실행 취소된 작업을 다시 실행합니다.\n다시 실행"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 표시하거나 숨깁니다.\n도구 모음 설정/해제"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 숨깁니다.\n상태 표시줄 설정/해제"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창 크기를 변경합니다."
+    AFX_IDS_SCMOVE          "창 위치를 변경합니다."
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 축소합니다."
+    AFX_IDS_SCMAXIMIZE      "창을 전체 화면 크기로 확대합니다."
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다."
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다."
+    AFX_IDS_SCCLOSE         "문서를 저장할 것인지 확인하고 활성 창을 닫습니다."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 보통 크기로 복원합니다."
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELECT_MODEL         "\nSelect Model"
+    ID_EDIT_TRA             "\nMove Edit Tool"
+    ID_EDIT_ROT             "\nRotate Edit Tool"
+    ID_EDIT_SCL             "\nScale Edit Tool"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELECT_TOOL_RECT     "\nRect Select Tool"
+    ID_EDIT_MESH            "\nEdit Mesh"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELECT_TOOL_LASSO    "\nLasso Select Tool"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CREATE_NURBS_CRV     "\nCreate NURBS Curve"
+    ID_CREATE_NURBS_SRF     "\nCreate NURBS Surface"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_RENDER_TYPE_POLYGON  "\nShaded Polygon"
+    ID_RENDER_TYPE_POINT    "\nPoints"
+    ID_RENDER_TYPE_WIRE     "\nWireframe"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CREATE_PLANE         "\nCreate Plane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REPEAT_PREV_MENU     "\nRepeat Previous Menu"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CREATE_POLYGON_PLANE "\nCreate Plane"
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\Gaia.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "l.KOR\afxres.rc"          // 표준 구성 요소입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

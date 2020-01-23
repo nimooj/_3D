@@ -1,0 +1,9 @@
+[1] std::vector<> a 의 경우, 크기가 늘어남에 따라 원소의 주소가 바뀔 수 있음.
+    따라서, &a[i] 를 저장하여 사용할 경우, 나중에 문제가 생길 수 있음.
+    (즉, 선택된 삼각형의 포인터를 사용하면서, 메쉬의 삼각형을 추가할 경우, dangling 포인터가 될 수 있음)
+
+[2] tan(theta) = y / x <--> -pi < theta = atan2(y,x) < pi, 여기서 theta 는 양의 x축으로 반시계 방향의 각도
+
+[3] tan(theta) = x / y <--> -pi < theta = atan2(x,y) < pi, 여기서 theta 는 양의 y축으로 시계 방향의 각도
+
+[4] EditMeshDlg의 UpdateData(FALSE)를 수행할 경우, 칼라 버튼의 값이 초기화됨. 해결책: EditMeshDlg.m_cEditRgnDist.SetPos(EditMeshDlg.m_EditRgnDist);
